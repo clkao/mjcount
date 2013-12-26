@@ -1,6 +1,10 @@
 Err, just for fun
 
-howler.js is included, you can get it via git submodule
+howler.js is included, you can get it via:
+
+    git submodule init
+    git submodule update
+
 For more info about howler.js please visit http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library
 
 Live demo can be found below:
@@ -8,4 +12,6 @@ Live demo can be found below:
 - http://cdn.cornguo.net/mjcount
 - http://cornguo.github.io/mjcount
 
-Please run convert/convert.sh to convert audio clips for on-line usage
+To prepare audio clips for online usage:
+
+    cd convert; ./convert.sh
